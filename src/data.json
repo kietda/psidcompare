@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "idItem": 12345,
+      "description": "Tape",
+      "updateDate": "02/10/2022",
+      "quantity": 30,
+      "minLevel": 50
+    },
+    {
+      "idItem": 12346,
+      "description": "Rubber Band",
+      "updateDate": "02/10/2022",
+      "quantity": 30,
+      "minLevel": 100
+    },
+    {
+      "idItem": 12347,
+      "description": "Pen",
+      "updateDate": "02/11/2022",
+      "quantity": 3000,
+      "minLevel": 50
+    },
+    {
+      "idItem": 12348,
+      "description": "Label",
+      "updateDate": "02/10/2022",
+      "quantity": 30,
+      "minLevel": 50
+    }
+  ]
+}
