@@ -23,14 +23,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/register" element={<Register />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/emailtest" element={<EmailTest />}></Route>
-        <Route path="/singleitem/:id/:name" element={<SingleItem />}></Route>
-        <Route path="/importitem/:id/:name" element={<ImportItem />}></Route>
-        <Route path="/exportitem/:id/:name" element={<ExportItem />}></Route>
-        <Route path="/edititem/:id/:name" element={<EditItem />}></Route>
         <Route path="*" element={<Error />}></Route>
       </Routes>
     </Router>
